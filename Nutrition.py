@@ -8,7 +8,7 @@ import google.generativeai as genai
 from PIL import Image
 
 # Configure Gemini
-GOOGLE_API_KEY= "AIzaSyCItfflpeZq1gCVxfFVZ6HbwhUKP6qr3uc"  # AIzaSyDLKYdVg0MqT2gPPwdo-8Cr950_7JOai1U insert your Gemini API key https://aistudio.google.com/apikey
+GOOGLE_API_KEY= "AIzaSyC89JV2Crtb9KGElOapH04YF-hYGmLsEfw"  # AIzaSyDLKYdVg0MqT2gPPwdo-8Cr950_7JOai1U insert your Gemini API key https://aistudio.google.com/apikey
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Initialize session state
